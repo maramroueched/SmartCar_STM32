@@ -1,0 +1,67 @@
+2025-10-29T11:55:57.630Z INFO SharedStateManager initialized
+2025-10-29T11:55:57.632Z INFO Is remote: false
+2025-10-29T11:55:57.633Z INFO Starting Local. Installation path: undefined
+2025-10-29T11:55:57.635Z INFO [MainProvider] Creating new MainProvider instance...
+2025-10-29T11:55:57.637Z INFO Installation path exists: c:\SmartCar_STM32_Project\Src
+2025-10-29T11:55:57.638Z INFO Initializing database with URL: file:C:\Users\roich\AppData\Local\Temp\pythagora-temp\pythagora.db
+2025-10-29T11:55:57.645Z INFO [c:\Users\roich\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.17] Project root:
+2025-10-29T11:55:57.647Z INFO [c:\Users\roich\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.17\prisma\schema.prisma] Schema path:
+2025-10-29T11:55:57.647Z INFO [file:C:\Users\roich\AppData\Local\Temp\pythagora-temp\pythagora.db] Database URL:
+2025-10-29T11:55:57.648Z INFO [true] Schema exists:
+2025-10-29T11:55:57.649Z INFO Running prisma generate first...
+2025-10-29T11:56:31.164Z INFO [Prisma schema loaded from prisma\schema.prisma
+
+✔ Generated Prisma Client (6.17.1) to .\src\generated\prisma in 612ms
+
+] Prisma generate result:
+2025-10-29T11:56:31.166Z INFO Running prisma db push to sync schema...
+2025-10-29T11:56:48.267Z INFO [Prisma schema loaded from prisma\schema.prisma
+Datasource "db": SQLite database "pythagora.db" at "file:C:\Users\roich\AppData\Local\Temp\pythagora-temp\pythagora.db"
+
+SQLite database pythagora.db created at file:C:\Users\roich\AppData\Local\Temp\pythagora-temp\pythagora.db
+
+Your database is now in sync with your Prisma schema. Done in 463ms
+
+Running generate... (Use --skip-generate to skip the generators)
+[2K[1A[2K[GRunning generate... - Prisma Client
+[2K[1A[2K[G✔ Generated Prisma Client (6.17.1) to .\src\generated\prisma in 3.48s
+
+] Prisma db push result:
+2025-10-29T11:56:48.268Z INFO Database initialized successfully
+2025-10-29T11:56:48.269Z INFO [Migration] Checking for database migration...
+2025-10-29T13:06:07.257Z INFO SharedStateManager initialized
+2025-10-29T13:06:07.258Z INFO Is remote: false
+2025-10-29T13:06:07.259Z INFO Starting Local. Installation path: undefined
+2025-10-29T13:06:07.260Z INFO [MainProvider] Creating new MainProvider instance...
+2025-10-29T13:06:07.261Z INFO Installation path exists: c:\SmartCar_STM32_Project\Templates - Copy
+2025-10-29T13:06:07.262Z INFO Initializing database with URL: file:C:\Users\roich\AppData\Local\Temp\pythagora-temp\pythagora.db
+2025-10-29T13:06:07.267Z INFO Database file exists, skipping prisma generate/push for faster startup
+2025-10-29T13:06:07.268Z INFO Database initialized successfully
+2025-10-29T13:06:07.269Z INFO [Migration] Checking for database migration...
+2025-10-29T13:06:07.503Z INFO [Migration] No migration needed
+2025-10-29T13:07:54.495Z INFO Closing entire Pythagora extension...
+2025-10-29T13:07:54.500Z ERROR Error closing extension
+Error: Canceled
+Stack: Canceled: Canceled
+    at new MR (file:///c:/Users/roich/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:116391)
+    at U4.U (file:///c:/Users/roich/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:121001)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///c:/Users/roich/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:118495)
+    at iy.g (file:///c:/Users/roich/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:41101)
+    at iy.executeCommand (file:///c:/Users/roich/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:40605)
+    at Object.executeCommand (file:///c:/Users/roich/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:201:105071)
+    at closeEntirePythagoraExtension (c:\Users\roich\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.24\out\extension.js:390:31)
+    at Object.deactivate (c:\Users\roich\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.24\out\extension.js:295:15)
+    at SZ.eb (file:///c:/Users/roich/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:11797)
+    at file:///c:/Users/roich/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9947
+    at Array.map (<anonymous>)
+    at SZ.$ (file:///c:/Users/roich/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9935)
+    at SZ.terminate (file:///c:/Users/roich/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10178)
+    at H3.terminate (file:///c:/Users/roich/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:914)
+    at Ss (file:///c:/Users/roich/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:10409)
+    at MessagePortMain.<anonymous> (file:///c:/Users/roich/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:6948)
+    at MessagePortMain.emit (node:events:519:28)
+    at MessagePortMain.emit (node:domain:489:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+Extra context: {
+  "message": "Canceled"
+}
